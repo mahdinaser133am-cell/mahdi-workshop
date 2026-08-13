@@ -1,212 +1,223 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>کارگاه تراشکاری و جوشکاری | خدمات صنعتی</title>
+<title>کارگاه تراشکاری و جوشکاری</title>
 
-  <meta name="description" content="ارائه خدمات تراشکاری، جوشکاری و ساخت قطعات صنعتی با کیفیت مناسب">
+<meta name="description" content="خدمات تراشکاری، جوشکاری و ساخت قطعات صنعتی">
 
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-    body {
-      font-family: Tahoma, Arial, sans-serif;
-      background: #f4f6f8;
-      color: #222;
-      line-height: 1.8;
-    }
+body {
+  font-family: Tahoma, Arial, sans-serif;
+  background: #f3f4f6;
+  color: #222;
+  line-height: 1.9;
+}
 
-    header {
-      background: linear-gradient(135deg, #111827, #374151);
-      color: white;
-      padding: 45px 20px;
-      text-align: center;
-    }
+header {
+  background: linear-gradient(135deg, #111827, #374151);
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
 
-    header h1 {
-      font-size: 30px;
-      margin-bottom: 10px;
-    }
+header h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
 
-    header p {
-      font-size: 17px;
-      color: #e5e7eb;
-    }
+header p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
 
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 25px;
-      background: #f59e0b;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-    }
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 13px 28px;
+  background: #f59e0b;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
 
-    section {
-      max-width: 1000px;
-      margin: auto;
-      padding: 45px 20px;
-    }
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 45px 20px;
+}
 
-    section h2 {
-      text-align: center;
-      margin-bottom: 30px;
-      font-size: 26px;
-      color: #111827;
-    }
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #111827;
+}
 
-    .about {
-      background: white;
-      border-radius: 12px;
-      padding: 25px;
-      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
-    }
+.about {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,.08);
+}
 
-    .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-    }
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
 
-    .card {
-      background: white;
-      padding: 25px;
-      border-radius: 12px;
-      text-align: center;
-      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
-    }
+.card {
+  background: white;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,.08);
+}
 
-    .card h3 {
-      margin-bottom: 10px;
-      color: #d97706;
-    }
+.card h3 {
+  color: #d97706;
+  margin-bottom: 10px;
+}
 
-    .contact {
-      background: #111827;
-      color: white;
-      text-align: center;
-      border-radius: 12px;
-      padding: 35px 20px;
-    }
+.contact {
+  background: #111827;
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  padding: 40px 20px;
+}
 
-    .contact h2 {
-      color: white;
-    }
+.contact h2 {
+  color: white;
+}
 
-    .contact a {
-      color: #fbbf24;
-      text-decoration: none;
-      font-weight: bold;
-    }
+.phone {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 13px 25px;
+  background: #f59e0b;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
 
-    footer {
-      background: #030712;
-      color: #aaa;
-      text-align: center;
-      padding: 20px;
-      margin-top: 30px;
-    }
-  </style>
+footer {
+  background: #030712;
+  color: #aaa;
+  text-align: center;
+  padding: 22px;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 26px;
+  }
+}
+</style>
 </head>
 
 <body>
 
 <header>
-  <h1>کارگاه تراشکاری و جوشکاری</h1>
-  <p>ارائه خدمات تراشکاری، جوشکاری و ساخت قطعات صنعتی</p>
 
-  <a class="btn" href="#contact">تماس با ما</a>
+<h1>کارگاه تراشکاری و جوشکاری</h1>
+
+<p>
+ارائه خدمات تراشکاری، جوشکاری و ساخت قطعات صنعتی
+</p>
+
+<a class="btn" href="#contact">
+تماس با ما
+</a>
+
 </header>
 
 <section>
-  <h2>درباره کارگاه</h2>
 
-  <div class="about">
-    <p>
-      ما در زمینه خدمات تراشکاری و جوشکاری فعالیت می‌کنیم
-      و آماده انجام پروژه‌های صنعتی، ساخت قطعات و تعمیرات
-      مربوط به تجهیزات و قطعات فلزی هستیم.
-    </p>
+<h2>درباره کارگاه</h2>
 
-    <p>
-      برای دریافت مشاوره و استعلام قیمت، با ما تماس بگیرید.
-    </p>
-  </div>
+<div class="about">
+
+<p>
+ما در زمینه تراشکاری، جوشکاری و ساخت قطعات فلزی فعالیت می‌کنیم
+و آماده همکاری با کارگاه‌ها، شرکت‌ها و مجموعه‌های صنعتی هستیم.
+</p>
+
+<br>
+
+<p>
+برای سفارش کار و دریافت قیمت با ما تماس بگیرید.
+</p>
+
+</div>
+
 </section>
 
 <section>
-  <h2>خدمات ما</h2>
 
-  <div class="services">
+<h2>خدمات ما</h2>
 
-    <div class="card">
-      <h3>🔧 تراشکاری</h3>
-      <p>
-        انجام انواع خدمات تراشکاری و ساخت قطعات فلزی
-      </p>
-    </div>
+<div class="services">
 
-    <div class="card">
-      <h3>🔥 جوشکاری</h3>
-      <p>
-        انجام خدمات جوشکاری و تعمیر قطعات و سازه‌های فلزی
-      </p>
-    </div>
+<div class="card">
+<h3>🔧 تراشکاری</h3>
+<p>انجام خدمات تراشکاری و ساخت قطعات فلزی</p>
+</div>
 
-    <div class="card">
-      <h3>⚙️ ساخت قطعات</h3>
-      <p>
-        ساخت قطعات مورد نیاز کارگاه‌ها و مجموعه‌های صنعتی
-      </p>
-    </div>
+<div class="card">
+<h3>🔥 جوشکاری</h3>
+<p>انجام خدمات جوشکاری و تعمیر قطعات فلزی</p>
+</div>
 
-    <div class="card">
-      <h3>🏭 خدمات صنعتی</h3>
-      <p>
-        آماده همکاری با کارگاه‌ها و مجموعه‌های صنعتی
-      </p>
-    </div>
+<div class="card">
+<h3>⚙️ ساخت قطعات</h3>
+<p>ساخت قطعات مورد نیاز مجموعه‌های صنعتی</p>
+</div>
 
-  </div>
+<div class="card">
+<h3>🏭 خدمات صنعتی</h3>
+<p>آماده همکاری با شرکت‌ها و مجموعه‌های صنعتی</p>
+</div>
+
+</div>
+
 </section>
 
 <section id="contact">
 
-  <div class="contact">
+<div class="contact">
 
-    <h2>تماس با ما</h2>
+<h2>تماس با ما</h2>
 
-    <p>
-      برای سفارش کار یا دریافت قیمت با ما تماس بگیرید.
-    </p>
+<p>
+برای سفارش کار و دریافت قیمت تماس بگیرید.
+</p>
 
-    <!-- شماره تلفن خودت را اینجا قرار بده -->
-    <p style="margin-top:15px;">
-      📞 تلفن:
-      <a href="tel:09XXXXXXXXX">09XXXXXXXXX</a>
-    </p>
+<a class="phone" href="tel:09XXXXXXXXX">
+📞 09XXXXXXXXX
+</a>
 
-    <!-- لینک واتساپ را بعداً اضافه می‌کنیم -->
-    <p style="margin-top:10px;">
-      📱 آماده پاسخگویی به سفارش‌ها
-    </p>
-
-  </div>
+</div>
 
 </section>
 
 <footer>
-  <p>© 2026 تمامی حقوق محفوظ است.</p>
-  <p>طراحی سایت معرفی خدمات صنعتی</p>
+
+<p>
+© 2026 کارگاه تراشکاری و جوشکاری
+</p>
+
 </footer>
 
 </body>
-  </html
+  </html>
