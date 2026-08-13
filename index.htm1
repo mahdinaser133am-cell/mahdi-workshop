@@ -104,3 +104,125 @@
 
     .phone {
       display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #f59e0b;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #030712;
+      color: #aaa;
+      text-align: center;
+      padding: 22px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 26px;
+      }
+
+      header p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>کارگاه تراشکاری و جوشکاری</h1>
+
+  <p>
+    ارائه خدمات تراشکاری، جوشکاری و ساخت قطعات صنعتی
+  </p>
+
+  <a class="btn" href="#contact">
+    تماس با ما
+  </a>
+</header>
+
+<section>
+  <h2>درباره کارگاه</h2>
+
+  <div class="box">
+    <p>
+      ما در زمینه تراشکاری، جوشکاری و ساخت قطعات فلزی
+      فعالیت می‌کنیم و آماده همکاری با کارگاه‌ها،
+      شرکت‌ها و مجموعه‌های صنعتی هستیم.
+    </p>
+
+    <br>
+
+    <p>
+      برای سفارش کار، مشاوره و استعلام قیمت با ما تماس بگیرید.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>خدمات ما</h2>
+
+  <div class="services">
+
+    <div class="card">
+      <h3>🔧 تراشکاری</h3>
+      <p>
+        انجام انواع خدمات تراشکاری و ساخت قطعات فلزی.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>🔥 جوشکاری</h3>
+      <p>
+        انجام خدمات جوشکاری و تعمیر قطعات و تجهیزات فلزی.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>⚙️ ساخت قطعات</h3>
+      <p>
+        ساخت قطعات مورد نیاز کارگاه‌ها و مجموعه‌های صنعتی.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>🏭 خدمات صنعتی</h3>
+      <p>
+        آماده همکاری با شرکت‌ها و مجموعه‌های صنعتی.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+
+  <div class="contact">
+
+    <h2>تماس با ما</h2>
+
+    <p>
+      برای سفارش کار و دریافت قیمت با ما تماس بگیرید.
+    </p>
+
+    <!-- شماره تلفن را بعداً جایگزین می‌کنیم -->
+    <a class="phone" href="tel:09XXXXXXXXX">
+      📞 09XXXXXXXXX
+    </a>
+
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 تمامی حقوق محفوظ است.</p>
+  <p>کارگاه تراشکاری و جوشکاری</p>
+</footer>
+
+</body>
+</html>
